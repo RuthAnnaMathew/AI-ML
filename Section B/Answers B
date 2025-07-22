@@ -1,5 +1,4 @@
-1. 
-
+#6
 def isprime(n):
     if n <= 1:
         return False
@@ -9,7 +8,7 @@ def isprime(n):
     return True
 
 
-2.
+#7
 def countvowels(string):
     vowels = "aeiouAEIOU"
     count = 0
@@ -18,6 +17,33 @@ def countvowels(string):
             count += 1
     return count
 
+#8 What is the difference between a list and a tuple in Python? Give one example of each.
+
+List = [1,2,3]
+Tuple = (1,2,3)
+
+#9 What will be the output of the following code?
+
+a = [1,2,3,4]
+
+#10.	Create a DataFrame from a dictionary
+
+import pandas as pd
+dictionary = {"Name": ["Alex", "Bob","Carl"], "Age": [20,21,22]}
+
+data = pd.DataFrame(dictionary)
+
+print(data)
 
 
-  
+#11.Read a CSV file and display the first 5 rows
+
+data = pd.read_csv("audi.csv")
+print(data.head())
+
+#12. Filter rows where Age > 25
+
+data_age = {"Name": ["Alex", "Bob","Carl", "Derek", "Earl"], "Age": [20,28,22,29,17]}
+
+data = pd.DataFrame(data_age)
+print(data[data["Age"] > 25])

@@ -1,0 +1,30 @@
+1. The key differences between AI, ML and DL is:
+    Artificial Intelligence (AI): when machines are programmed to act and behave like humans like learning,
+                                  reasoning, decision making, etc.
+    Example: Like Alexa which can respond to voice commands and answers questions.
+
+    Machines Learning (ML): similar to AI where systems learn by analyzing data and improving their knowledge
+                            over time.
+    Example: Like Tiktok, which uses AI to learn about what kind of videos you enjoy and recommend accordingly.
+
+    Deep Learning (DL): Used in images and speeches to undersrand and process their patterns.
+    Exmaple: like face recognition used in phones.
+
+2. 
+Supervised learning is by getting the inputs and outputs and learning how they connect together.
+Example: mail with their spam and not spam
+   
+Unsupervised learning is when the computer learns by itself how the data is grouped.
+Example: spotify recommended songs 
+
+3. 
+Model: Models are what are used to train by giving data
+Training: Giving the model examples to learn from so it can improve
+Features: The data you give into the model
+Labels: The output the model should learn
+
+4. 
+When the model has learned too much from the data it was given and doesnt perform well on new data.
+You can avoid this by providing new data and using cross validation.
+
+5. Siri and ALexa that repsonds to voice commands and Spotify which recommends according to your perferences.
